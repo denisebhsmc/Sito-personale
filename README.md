@@ -16,5 +16,7 @@ Questo __repository__ serve a creare un sito personale monopagina responsive
 * _Footer con contatti e profili social dell'azienda_
 ## Siti e strumenti utilizzati:
 * _Codepen.io_
-  ## Caratteristiche struttura e elementi pagina
+## Caratteristiche struttura e elementi pagina
 * _Html5_
+## link netifly
+https://denisebrunigraphics.netlify.app/
