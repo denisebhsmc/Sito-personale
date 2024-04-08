@@ -7,3 +7,13 @@ header {    background-color: #081135;
             text-align:right;
             padding: 20px;
             font-size: 20px;}
+
+h1     {    font-family:'verdana';
+            color:#F4F4F4;
+            text align: left;
+            font-size: 10px; }
+
+p     {    font-family:'verdana';
+            color:#F4F4F4;
+            text align: left;
+            font-size: 5px; }
