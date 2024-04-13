@@ -21,7 +21,10 @@ p .contatti    {    font-family:'verdana';
             color:#F4F4F4;
             text align: left;
             font-size: 20px; }
-p .chisono  {    }
+p .chisono  { text-align: justify;   }
+.container { width: 80%; /* Adjust width as needed */
+            margin: 0 auto; /* Center the container horizontally */
+            text-align: justify;}
 
 h2 {    font-family:'verdana';
             color:#F4F4F4;
