@@ -9,7 +9,7 @@ body {
   header {
     background-color: #081135;
     color: #F4F4F4;
-    padding: 20px;
+    padding: 40px;
     display: flex;
     align-items:left;
     flex-direction: column;
@@ -17,7 +17,7 @@ body {
   }
   
   .logo {
-    width: 400px; 
+    width: 200px; 
     height: auto; 
   }
   .nav {
@@ -48,13 +48,21 @@ body {
     color: #081135;
     text-align: left;
     font-size: 50px;
-    margin-left: 20px;
+    margin-left: 200px;
+  }
+
+  h2 {
+    color: #F4F4F4;
+    text-align: center;
+    font-size: 50px;
+    
   }
   
   p {
     color: #081135;
     text-align: left;
     font-size: 20px;
+    margin-left: 200px;
   }
   
   .contatti {
@@ -67,19 +75,14 @@ body {
     text-align: justify;
   }
   
-  .container {
-    width: 80%;
-    margin: 0 auto;
-    text-align: justify;
-    padding: 20px;
+  .container { 
+    width: 30%; 
+    margin-right: 80px ; 
+    left: 20px; 
+    text-align:justify left;
   }
+
   
-  
-  h2 {
-    color: #F4F4F4;
-    text-align: left;
-    font-size: 50px;
-  }
 
   .contacts-section {
     background-color: #D3D3D3;
@@ -101,6 +104,31 @@ body {
     font-size: 18px;
   }
   
+
+  footer {
+    background-color: #081135;
+    padding: 10px 0;
+    text-align: left;
+  }
+  
+  .footer {
+    max-width: 1200px;
+    margin: 0 auto;
+    color: #fff; 
+  }
+  
+  .footer p {
+    margin-left: 5px;
+    padding-left: 10px;
+    color: #fff; 
+    font-size: 10px;
+  }
+  
+  
+  .social-icons .icon {
+    color: #fff;
+    font-size: 24px;
+    margin-left: 10px;
 
   @media (max-width: 768px) {
     .nav {
