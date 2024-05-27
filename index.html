@@ -8,22 +8,27 @@
   <meta name="keywords" content="Portfolio, Graphic Design">
   <meta name="author" content="Denise Bruni">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <title>Denise Bruni - Portfolio</title>
+</head>
   <title>Denise Bruni - Portfolio</title>
 </head>
 
 <body>
   <header>
-    <p class="logo">
-      <img src="logo.png" alt="logo Denise Bruni Graphics" style="width: 400px; 
-      height: auto;">
-    </p>
-    <br>
-    <nav class="nav">
+    <img src="logo.png" alt="logo Denise Bruni Graphics" style="width: 150px; 
+       height: auto; position:absolute; left:15px; top:8px">
+    <nav class="nav"> 
       <a href="#chisono">Chi sono?</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contattami">Contattami</a>
     </nav>
   </header>
+
+  <br>
+  <br>
+  <br>
+  <br>
 
   <section id="chisono">
     <h1>Chi sono?</h1>
@@ -32,23 +37,55 @@
     </div>
   </section>
 
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+
   <section id="portfolio">
-    <h1>Portfolio</h1>
     <div style="background-color: #081135; height: 600px; color: white; padding: 20px;">
+      <h2>Portfolio</h2>
+    </div>
+    
       <!-- Contenuto del portfolio -->
     </div>
   </section>
 
   <section id="contattami">
-    <div style="background-color: #081135; height: 300px; padding: 10px;">
-      <h2>Contatti</h2>
-      <p class="contatti">
-        Email: denisebrunigraphics@gmail.com
-        <br>
-        Instagram: denisebrunigraphics
-      </p>
+    <div class="contact-form">
+      <h1>Contattami</h1>
+      <form action="submit.php" method="post">
+        <div class="form-group">
+          <label for="name">Nome:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Messaggio:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Invia</button>
+      </form>
     </div>
   </section>
+  
+  <br>
+  <br>
+  <br>
+  <br>
+
+
+  <footer>
+    <div class="footer p">
+      <p><i class="fas fa-envelope"></i> denisebrunigraphics@gmail.com</p>
+      <p><i class="fab fa-instagram"></i> denisebrunigraphics</p>
+  </footer>
+      
 
 </body>
 </html>
