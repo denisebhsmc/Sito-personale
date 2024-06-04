@@ -14,132 +14,87 @@
   <link href="https://fonts.googleapis.com/css2?family=Abel&display=swap" rel="stylesheet">
   <title>Denise Bruni - Portfolio</title>
 </head>
-  <title>Denise Bruni - Portfolio</title>
-</head>
-
+  
 <body>
   <header>
-    <img src="logo.png" alt="logo Denise Bruni Graphics" style="width: 150px; 
-       height: auto; position:absolute; left:15px; top:8px">
+    <img src="logo.png" alt="logo Denise Bruni Graphics" style="width: 150px; height: auto; position: absolute; left: 15px; top: 8px;">
     <nav class="nav"> 
       <a href="#chisono">Chi sono?</a>
       <a href="#portfolio">Portfolio</a>
       <a href="#contattami">Contattami</a>
     </nav>
   </header>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-
-<section id="chisono">
-  <h1>Chi sono?</h1>
+  <br> <br> <br> 
+  <section id="chisono">
+    
     <div class="content-wrapper">
-     <div class="container">
-      <p class="pchisono">Ciao! Sono Denise Bruni, sono originaria della provincia di Torino e sono una Graphic Designer. Ho frequentato il liceo artistico indirizzo arti figurative e mi sto per diplomare in una accademia di belle arti.</p>
-    </div>
-    <div class="image-container">
+      <div class="container">
+        <h1>Chi sono?</h1>
+        <p class="pchisono">Ciao! Sono Denise Bruni, sono originaria della provincia di Torino e sono una Graphic Designer. Ho frequentato il liceo artistico con indirizzo arti figurative e mi sto per diplomare in una accademia di belle arti.</p>
+      </div>
+      <div class="image-container">
         <img src="Senza titolo-1.png" alt="Denise Bruni">
+      </div>
     </div>
-   </div>
   </section>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  <br>
-  
+  <br> <br> <br> <br> 
 
   <section id="portfolio">
-    <div style="background-color: #081135; height: 800px; color: white; padding: 20px;">
-        <h2>Portfolio</h2>
-        
-        <div class="slider-container">
-            <div class="slider">
-                <div class="slides">
-                    <input type="radio" name="radio-btn" id="radio1" checked>
-                    <input type="radio" name="radio-btn" id="radio2">
-                    <input type="radio" name="radio-btn" id="radio3">
-
-                    <div class="slide first">
-                        <img src="Manifestosensibilizzazionelettura_DeniseBruni_Tavola disegno 1_Tavola disegno 1.jpg" alt="Manifesto per sensibilizzazione alla lettura">
-                        <div class="caption"> Progettazione di un manifesto volto a sensibilizzare le persone alla lettura. L'illustrazione vuole rappresentare proprio quello che viene citato in alto, cioè come un buon libro possa offrire conforto nei momenti di sconforto. </div>
-                    </div>
-                    <div class="slide">
-                        <img src="vino_Tavola disegno 1_Tavola disegno 1.jpg" alt="Vino Negrisolo">
-                        <div class="caption">Progettazione delle etichette per un vino rosato frizzante. Lo stile è volutamente vivace e giovanile, in modo che si possa facilmente distinguere dai concorrenti. </div>
-                    </div>
-                    <div class="slide">
-                        <img src="PUFFIN.jpg" alt="Maascotte Asilo Nido">
-                        <div class="caption">Puffin è una mascotte progettata per il contest ideato dall'asilo "Primi Passi". Rappresenta una pulcinella di mare (come suggerisce il nome) animale i cui cuccioli tendono a perdersi spesso distratti dalle luci della città, e quindi bisognosi di essere accompagnati nella giusta direzione, concetto che dunque si abbina bene al tema.</div>
-                    </div>
-
-                    <div class="navigation-auto">
-                        <div class="auto-btn1"></div>
-                        <div class="auto-btn2"></div>
-                        <div class="auto-btn3"></div>
-                    </div>
-                </div>
-
-                <div class="navigation-manual">
-                    <label for="radio1" class="manual-btn"></label>
-                    <label for="radio2" class="manual-btn"></label>
-                    <label for="radio3" class="manual-btn"></label>
-                </div>
-            </div>
-        </div>
+    <div style="background-color: #081135; height: 1600px; color: white; padding: 20px;">
+      <h2>Portfolio</h2>
+          <img class="portfolio-image-container"src="Manifestosensibilizzazionelettura_DeniseBruni_Tavola disegno 1_Tavola disegno 1.jpg" alt="Manifesto" >
+          <button id="openPopupBtn" class="open-popup-btn">Scopri di più</button>
+      <div id="popup" class="popup">
+    <div class="popup-content">
+      <span class="close-btn" id="closePopupBtn">&times;</span>
+      <img src="Manifestosensibilizzazionelettura_DeniseBruni_Tavola disegno 1_Tavola disegno 1.jpg" alt="Immagine">
+      <h4>Manifesto</h4>
+      <p>Progettazione di un manifesto volto a sensibilizzare le persone alla lettura. L'illustrazione vuole rappresentare proprio quello che viene citato in alto, cioè come un buon libro possa offrire conforto nei momenti di sconforto.</p>
     </div>
-</section>
-
-  <br>
-  <br>
-  <br>
-  <br>
-  
-  <section id="contattami">
-    <div class="contact-form-container">
-      <h3>Contattami</h3>
-      <form action="#" method="post" class="contact-form">
-          <label for="name">Nome</label>
-          <input type="text" id="name" name="name" required>
-
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
-
-          <label for="message">Messaggio</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
-
-          <button type="submit">Invia</button>
-      </form>
   </div>
+</div>
+      
   </section>
 
-  <br>
-  <br>
-  <br>
-  <br>
-
+  <section id="contattami">
+    <div class="contact-content-wrapper">
+      <div class="contact-form-container">
+        <h3>Contattami</h3>
+        <form action="#" method="POST" data-netlify="true" class="contact-form">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" required>
+  
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+  
+          <label for="message">Messaggio</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+  
+          <button type="submit">Invia</button>
+        </form>
+      </div>
+      <div class="map-container">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5566.372951735157!2d8.609575623545314!3d45.45361706574453!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47883dbb52496373%3A0xc5c89d1b2a500cc6!2sVia%20Costantino%20Porta%2C%2025%2C%2018110%20Novara%20NO!5e0!3m2!1sen!2sit!4v1623849186464!5m2!1sen!2sit" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+  
 
   <footer>
     <div class="footer-content">
       <p><a href="mailto:denisebrunigraphics@gmail.com">
-         <i class="fas fa-envelope"></i> 
-         <span>denisebrunigraphics@gmail.com</span> 
-      </a>
-      </p>
-      <p> <a href="https://www.instagram.com/denisebrunigraphics/t">
+        <i class="fas fa-envelope"></i> 
+        <span>denisebrunigraphics@gmail.com</span> 
+      </a></p>
+      <p><a href="https://www.instagram.com/denisebrunigraphics/">
         <i class="fab fa-instagram"></i>
-      <span>denisebrunigraphics</span>
-      </a>
-      </p>
-
+        <span>denisebrunigraphics</span>
+      </a></p>
+    </div>
   </footer>
-      
-
+  
+  <button onclick="topFunction()" id="scrollToTopBtn" title="Torna in cima">&#8593;</button>
+  
+  <script src="script.js"></script>
 </body>
 </html>
