@@ -1,3 +1,5 @@
+
+
 body {
     font-family:Abel;
     background-color:#c0c5dc;
@@ -46,22 +48,28 @@ body {
   h1 {
     color: #081135;
     text-align: left;
-    font-size: 50px;
+    font-size: 80px;
     margin-left: 200px;
   }
 
   h2 {
     color: #F4F4F4;
     text-align: center;
-    font-size: 50px;
+    font-size: 80px;
     
   }
 
   h3 {
     color: #081135;
     text-align: center;
+    font-size: 80px;
+  }
+  h4 {
+    color: #081135;
+    text-align: center;
     font-size: 50px;
   }
+
   
   .pchisono {
     color: #081135;
@@ -79,7 +87,7 @@ body {
   
   .image-container {
     width: 300px;
-    margin-right: 200px;
+    margin-right: 300px;
   }
   
   
@@ -94,139 +102,139 @@ body {
     align-items: center;
 }
 
-
-
-
-  .slider-container {
-    float: right;
-    margin-right: 200px;
+.portfolio-image-container {
+  width: 300px;
+  margin-left: 200px;
 }
 
-.slider {
-    width: 550px;
-    max-width: 100%;
-    overflow: hidden;
-    position: relative;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.open-popup-btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  background-color: #F4F4F4;
+  color: #081135;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
 }
 
-.slides {
-    display: flex;
-    width: 300%;
-    height: 550px;
+.open-popup-btn:hover {
+  background-color: #ccc;
 }
 
-.slides input {
-    display: none;
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
 }
 
-.slide {
-    width: 33.3333%;
-    transition: 0.6s;
-    display: flex;
-    flex-direction: column;
+.popup-content {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 500px;
+  width: 80%;
+  max-height: 600px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  position: relative;
 }
 
-.slide img {
-    width: 100%;
-    height: 800px;
-    object-fit: cover;
-    border-bottom: 2px solid #ccc;
+.popup-content img {
+  width: 80%;
+  height: auto;
+  border-radius: 5px;
+  margin-bottom: 20px;
 }
 
-.caption {
-    text-align: left;
-    color: #ffffff;
-    font-size: 18px;
+.close-btn {
+  position: absolute;
+  top: 20px;
+  right: 10px;
+  font-size: 24px;
+  cursor: pointer;
+  color: #000;
 }
 
-.navigation-manual {
-    position: absolute;
-    width: 100%;
-    margin-top: -40px;
-    display: flex;
-    justify-content: center;
+.popup-content h4 {
+    margin: 10px 0 5px; /* Diminuisce il margine sotto l'h4 */
+    line-height: 1.2; /* Regola l'altezza della linea */
 }
 
-.manual-btn {
-    border: 2px solid #ffffff;
-    padding: 5px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: background 0.3s;
-    margin: 0 5px;
+.popup-content p {
+    color:#000;
+    5px 0 0; /* Diminuisce il margine sopra il p */
+    line-height: 1.4; /* Regola l'altezza della linea */
 }
 
-.manual-btn:hover {
-    background: #ffffff;
+.contact-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact-form-container {
+  flex: 1;
+  width: 50%; /* Imposta la larghezza al 50% per posizionare il modulo a sinistra */
+  max-width: 600px;
+  margin: 100px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 
-#radio1:checked ~ .first {
-    margin-left: 0;
-}
-
-#radio2:checked ~ .first {
-    margin-left: -33.3333%;
-}
-
-#radio3:checked ~ .first {
-    margin-left: -66.6667%;
-}
-
-
-
-
-
-
-
-
-  .contact-form-container {
-    width: 100%;
-    max-width: 600px;
-    margin: 50px auto;
-    padding: 20px;
-    background-color: #ffffff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
-}
-
-.contact-form-container h2 {
-    text-align: center;
-    margin-bottom: 20px;
+.contact-form-container h3 {
+  text-align: center;
+  margin-bottom: 20px;
 }
 
 .contact-form label {
-    display: block;
-    margin-bottom: 5px;
-    font-weight: bold;
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
 }
 
 .contact-form input,
 .contact-form textarea {
-    width: 100%;
-    padding: 10px;
-    margin-bottom: 15px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    font-size: 14px;
+  width: 96%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
 }
 
 .contact-form button {
-    width: 100%;
-    padding: 10px;
-    background-color:#081135;
-    color: white;
-    border: none;
-    border-radius: 4px;
-    font-size: 16px;
-    cursor: pointer;
+  width: 100%;
+  padding: 10px;
+  background-color:#081135;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
 }
 
 .contact-form button:hover {
-    background-color: #081135;
+  background-color: #081135;
 }
 
+.map-container {
+  width: 30%; /* Imposta la larghezza al 50% per posizionare la mappa a destra */
+  padding: 20px; /* Aggiunge spazio tra il modulo e la mappa */
+  margin: 100px;
+}
+
+.map-container iframe {
+  width: 100%;
+  height: 300px; /* Imposta l'altezza della mappa */
+}
 
   footer {
     background-color: #081135; 
@@ -234,17 +242,44 @@ body {
     padding: 15px; 
 }
 
-.footer-content {
+.footer-content a {
     align-items: left;
-    font-size: 10px;
+    font-size: 15px;
+    text-decoration: none;
+    color:#fff;
 }
-  
+
+.footer-content a:hover {
+  color:#c0c5dc; /* Cambia il colore del testo al passaggio del mouse */
+}
   
   .social-icons .icon {
     color: #fff;
     font-size: 24px;
     margin-left: 10px;
+} 
+
+#scrollToTopBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: #081135;
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 50%;
 }
+
+#scrollToTopBtn:hover {
+  background-color: #F4F4F4;
+  color: #081135;
+}
+
   
 @media (max-width: 768px) {
     .nav {
@@ -275,5 +310,3 @@ body {
       font-size: 18px;
     }
   }
-
-
