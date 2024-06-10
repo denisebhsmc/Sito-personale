@@ -1,17 +1,37 @@
-document.getElementById('openPopupBtn').addEventListener('click', function() {
-    document.getElementById('popup').style.display = 'flex';
+document.getElementById('portfolioImage').addEventListener('click', function() {
+    document.getElementById('popup1').style.display = 'flex';
 });
 
 document.getElementById('closePopupBtn').addEventListener('click', function() {
-    document.getElementById('popup').style.display = 'none';
+    document.getElementById('popup1').style.display = 'none';
 });
 
 window.addEventListener('click', function(event) {
-    if (event.target === document.getElementById('popup')) {
-        document.getElementById('popup').style.display = 'none';
+    if (event.target === document.getElementById('popup1')) {
+        document.getElementById('popup1').style.display = 'none';
     }
 });
-// Mostra il pulsante quando l'utente scorre verso il basso di 20 pixel dalla parte superiore della pagina
+
+
+document.getElementById('vino').addEventListener('click', function() {
+    document.getElementById('popup2').style.display = 'flex';
+});
+
+document.getElementById('closePopupBtn').addEventListener('click', function() {
+    document.getElementById('popup2').style.display = 'none';
+});
+
+window.addEventListener('click', function(event) {
+    if (event.target === document.getElementById('popup2')) {
+        document.getElementById('popup2').style.display = 'none';
+    }
+});
+
+
+
+
+
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
@@ -22,8 +42,8 @@ function scrollFunction() {
   }
 }
 
-// Quando l'utente clicca sul pulsante, scorrere verso l'alto della pagina
+
 function topFunction() {
-  document.body.scrollTop = 0; // Per Safari
-  document.documentElement.scrollTop = 0; // Per Chrome, Firefox, IE e Opera
+  document.body.scrollTop = 0; 
+  document.documentElement.scrollTop = 0; 
 }
