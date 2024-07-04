@@ -417,7 +417,6 @@ hr {
   }
 
   .container, .skills-container, .portfolio-content, .contact-content-wrapper {
-      flex-direction: column;
       align-items: center;
       width: 90%;
       margin: 0 auto;
