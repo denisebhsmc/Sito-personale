@@ -47,7 +47,6 @@ function moveSlide(n) {
     showSlide(currentSlide + n);
 }
 
-// Inizializza lo slider
 showSlide(currentSlide);
 
 
