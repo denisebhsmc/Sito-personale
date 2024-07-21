@@ -8,15 +8,20 @@ Realizzazione di un sito monopagina: Portfolio personale<br>
 ## Scopo del repository
 Questo __repository__ serve a creare un sito personale monopagina responsive 
 ## Elementi principali della pagina:
-* _Nome_ 
-* _Logo_
-* _Descrizione (chi sono?)_
+* _Logo e nav bar_
+* _Chi sono?_
+* _Skills_
 * _Portfolio_
-* _Descrizione lavori_
-* _Footer con contatti e profili social dell'azienda_
+* _Form di contatto_
+* _Mappa_ 
+* _Footer con email e profili social_
 ## Siti e strumenti utilizzati:
-* _Codepen.io_
+* _Visual Studio Code_
+* _Netlify_
+* _Github_
 ## Caratteristiche struttura e elementi pagina
 * _Html5_
+* _CSS_
+* _Javascript_
 ## link netifly
 https://denisebrunigraphics.netlify.app/
