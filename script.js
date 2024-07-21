@@ -17,7 +17,7 @@ document.getElementById('vino').addEventListener('click', function() {
     document.getElementById('popup2').style.display = 'flex';
 });
 
-document.getElementById('closePopupBtn').addEventListener('click', function() {
+document.getElementById('closePopupBtn2').addEventListener('click', function() {
     document.getElementById('popup2').style.display = 'none';
 });
 
@@ -68,3 +68,4 @@ function topFunction() {
   document.body.scrollTop = 0; 
   document.documentElement.scrollTop = 0; 
 }
+
