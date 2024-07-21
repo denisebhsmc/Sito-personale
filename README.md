@@ -23,5 +23,5 @@ Questo __repository__ serve a creare un sito personale monopagina responsive
 * _Html5_
 * _CSS_
 * _Javascript_
-## link netifly
+## link Netlify
 https://denisebrunigraphics.netlify.app/
