@@ -19,6 +19,7 @@ Questo __repository__ serve a creare un sito personale monopagina responsive
 * _Visual Studio Code_
 * _Netlify_
 * _Github_
+* _Bootstrap_
 ## Caratteristiche struttura e elementi pagina
 * _Html5_
 * _CSS_
